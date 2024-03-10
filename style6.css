@@ -1,0 +1,53 @@
+body{
+    background-image: url('./CSS\ A6\ Pics/shara desert.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 56px;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+
+}
+
+ul{
+    display: flex;
+}
+.menu ul li{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+.menu{
+    float: right;
+}
+
+.container{
+    display: flex;
+}
+h1{
+    font-size: 98px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+}
